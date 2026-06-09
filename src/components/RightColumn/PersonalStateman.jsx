@@ -1,9 +1,14 @@
 export default function PersonalStatement() {
   return (
     <section className="personal-statement">
-      <h3>Personal Statement</h3>
-      <p>I am a passionate software developer with experience in creating innovative solutions. I thrive in collaborative environments and am always eager to learn new technologies.</p>
+      <h2>Personal Statement</h2>
+
+      <p>
+        I am a motivated software development student focused on C# and .NET,
+        building practical projects to strengthen my backend and frontend skills.
+        I enjoy creating clean, structured applications and continuously improving
+        my understanding of React, UI/UX, and full‑stack development.
+      </p>
     </section>
   )
 }
-

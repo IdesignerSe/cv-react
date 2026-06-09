@@ -1,19 +1,17 @@
-function Skills() {
+export default function Skills() {
   return (
-    <section id="skills" className="section">
-      <h2>Skills</h2>
-      <ul className="skills-list">
-        <li>C# / .NET
-          <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+    <section className="skills">
+      <h3>Skills</h3>
 
-        </li>
-        <li>ASP.NET Core basics</li>
+      <ul className="skills-list">
+        <li>C# / .NET</li>
+        <li>ASP.NET Core (Basics)</li>
+        <li>React (Learning)</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+        <li>SQL Fundamentals</li>
         <li>Git & GitHub</li>
-        <li>SQL fundamentals</li>
-        <li>HTML, CSS, JavaScript</li>
       </ul>
     </section>
-  );
+  )
 }
-
-export default Skills;

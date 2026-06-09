@@ -1,172 +1,156 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background: #f4f4f4;
-    padding: 20px;
-}
-
-.cv-wrapper {
-    max-width: 1000px;
-    margin: auto;
-    background: #fff;
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    border: 1px solid #ddd;
-}
-
-.cv-container {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    min-height: 100vh;
-}
-
-.left-column {
-    background: #f4f4f4;
-    padding: 2rem;
-}
-
-.right-column {
-    padding: 2rem;
-}
-
-
-/* LEFT COLUMN */
-.left-col {
-    background: #1f2937;
-    color: #fff;
-    padding: 30px;
+.profile-photo {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: #ccc;
-    margin: 0 auto 20px auto;
-    display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.left-col h3 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    border-bottom: 1px solid #444;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.contact h3 {
+  margin-bottom: 0.5rem;
 }
 
-.left-col ul {
-    list-style: none;
-    margin-top: 10px;
-    line-height: 1.6;
-    font-size: 14px;
+.contact p {
+  margin: 0.3rem 0;
 }
 
-.left-col p {
-    font-size: 14px;
-    line-height: 1.6;
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
 }
 
-/* RIGHT COLUMN */
-.right-col {
-    padding: 40px;
+.contact a:hover {
+  text-decoration: underline;
+}
+.skills h3 {
+  margin-bottom: 0.5rem;
 }
 
-.name-title h1 {
-    font-size: 32px;
-    margin-bottom: 5px;
+.skills-list {
+  list-style: none;
+  padding: 0;
 }
 
-.name-title h2 {
-    font-size: 20px;
-    font-weight: normal;
-    color: #555;
-    margin-bottom: 20px;
+.skills-list li {
+  margin: 0.3rem 0;
+  padding-left: 10px;
+  position: relative;
 }
 
-.section {
-    margin-bottom: 30px;
+.skills-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0077cc;
 }
 
-.section h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.languages h3 {
+  margin-bottom: 0.5rem;
 }
 
-.job {
-    margin-bottom: 20px;
+.languages-list {
+  list-style: none;
+  padding: 0;
+}
+
+.languages-list li {
+  margin: 0.3rem 0;
+  padding-left: 10px;
+  position: relative;
+}
+
+.languages-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0077cc;
+}
+
+.header-name {
+  margin-bottom: 2rem;
+}
+
+.full-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
 }
 
 .job-title {
-    font-weight: bold;
-    font-size: 16px;
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 0.3rem;
 }
 
-.job-company {
-    font-style: italic;
-    color: #555;
+.personal-statement {
+  margin-bottom: 2rem;
 }
 
-.job-dates {
-    font-size: 13px;
-    color: #777;
-    margin-bottom: 8px;
+.personal-statement h2 {
+  margin-bottom: 0.5rem;
 }
 
-.job ul {
-    margin-left: 18px;
-    line-height: 1.6;
+.personal-statement p {
+  line-height: 1.6;
+  color: #444;
 }
 
-.education-item {
-    margin-bottom: 15px;
+.experience {
+  margin-bottom: 2rem;
 }
 
-.education-title {
-    font-weight: bold;
-    font-size: 16px;
+.experience h2 {
+  margin-bottom: 1rem;
 }
 
-.education-school {
-    font-size: 14px;
-    color: #555;
+.job {
+  margin-bottom: 1.5rem;
 }
 
-.education-dates {
-    font-size: 13px;
-    color: #777;
+.job h3 {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
-.skill-list {
-    list-style: none;
-    margin-top: 10px;
-    padding-left: 0;
-    font-size: 14px;
+.job-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.2rem 0 0.5rem 0;
 }
 
-.skill-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 4px;
+.job p {
+  line-height: 1.6;
+  color: #444;
 }
 
-.skill-name {
-    flex: 1;
+.education {
+  margin-bottom: 2rem;
 }
 
-.skill-stars {
-    margin-left: 10px;
-    color: #facc15;
-    /* gold-ish */
-    font-size: 13px;
+.education h2 {
+  margin-bottom: 1rem;
+}
+
+.school {
+  margin-bottom: 1.5rem;
+}
+
+.school h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.school-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.2rem 0 0.5rem 0;
+}
+
+.school p {
+  line-height: 1.6;
+  color: #444;
 }
