@@ -1,19 +1,8 @@
-function Header() {
+export default function HeaderName() {
   return (
-    <header className="header">
-      <div className="container">
-        <h1>Constantino Simpriannini</h1>
-        <p className="subtitle">Junior C# / .NET Developer</p>
-        <nav>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+    <header className="header-name">
+      <h1>Heb Andrade</h1>
+      <p className="title">Software Development Student | C#/.NET | Fullstack & UI/UX Explorer</p>
     </header>
-  );
+  )
 }
-
-export default Header;

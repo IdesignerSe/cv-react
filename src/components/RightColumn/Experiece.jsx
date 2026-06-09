@@ -2,7 +2,7 @@ function Experience() {
   return (
     <section id="experience" className="section">
       <h2>Experience</h2>
-      <div className="experience-item">
+      <div className="experience">
         <h3>Software Developer</h3>
         <p>ABC Company | Jan 2020 - Present</p>
         <ul>
