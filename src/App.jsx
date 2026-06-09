@@ -1,26 +1,19 @@
-import Header from './components/RightColumn/HeaderName.jsx';
-import About from './components/About.jsx';
-import Skills from './components/LeftColumn/Skills.jsx';
-import Experience from './components/Experience.jsx';
-import Projects from './components/Projects.jsx';
-import Education from './components/RightColumn/Education.jsx';
-import Contact from './components/LeftColumn/Contact.jsx';
-
-function App() {
+function Skills() {
   return (
-    <>
-      <Header />
-      <main>
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+    <section id="skills" className="section">
+      <h2>Skills</h2>
+      <ul className="skills-list">
+        <li>C# / .NET
+          <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+
+        </li>
+        <li>ASP.NET Core basics</li>
+        <li>Git & GitHub</li>
+        <li>SQL fundamentals</li>
+        <li>HTML, CSS, JavaScript</li>
+      </ul>
+    </section>
   );
 }
 
-export default App;
+export default Skills;

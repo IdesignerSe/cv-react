@@ -1,11 +1,11 @@
 function Contact() {
   return (
-    <section id="contact" className="section">
-      <h2>Contact</h2>
-      <p>support@resumedesign.ai
-          (555) 345-6789<br />
-          New York, US<br />
-          LinkedIn.com/in/daniel-harris</p>
+<section className="contact">
+      <h3>Contact</h3>
+      <p>Email: writeme@example.com</p>
+      <p>Phone: +46 123 456 789</p>
+      <p>Location: Malmö, Sweden</p>
+      <p>LinkedIn: linkedin.com/in/JohnDoe</p>
     </section>
   );
 }
