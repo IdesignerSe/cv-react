@@ -1,3 +1,22 @@
+.cv-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Left column smaller, right column bigger */
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.left-column {
+  background: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.right-column {
+  padding: 1.5rem;
+}
+
 .profile-photo {
   text-align: center;
   margin-bottom: 2rem;
