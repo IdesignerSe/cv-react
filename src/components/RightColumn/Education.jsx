@@ -14,8 +14,8 @@ export default function Education() {
       </div>
 
       <div className="school">
-        <h3>Previous Education (Optional)</h3>
-        <p className="school-date">Year – Year</p>
+        <h3>Previous Education</h3>
+        <p className="school-date">2022 – 2024</p>
         <p>
           Add any previous studies here, or remove this block if not needed.
         </p>
