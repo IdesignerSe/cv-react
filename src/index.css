@@ -340,3 +340,37 @@ body, p, li, a {
   }
 }
 
+/* === RESPONSIVE MOBILE LAYOUT === */
+@media (max-width: 768px) {
+  .cv-container {
+    display: block;
+    padding: var(--space-4);
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    padding: 0;
+    margin-bottom: var(--space-6);
+  }
+
+  /* Center the profile photo on mobile */
+  .profile-photo {
+    text-align: center;
+  }
+
+  /* Make headings slightly smaller for mobile */
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p, li, a {
+    font-size: 0.95rem;
+  }
+}
+
+
